@@ -16,10 +16,9 @@ export default function Header() {
     }
   }
   return (
-    <div>
       
-<nav className="bg-[#000000] border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-  <div className="container flex flex-wrap items-center justify-between mx-auto">
+<nav className="bg-black border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
+  <div className="bg-black container flex flex-wrap items-center justify-between mx-auto">
     <Link to="*" className="flex items-center">
         <img src={Logo} alt=" Logo" />
     </Link>
@@ -47,6 +46,5 @@ export default function Header() {
   </div>
 </nav>
 
-    </div>
   )
 }

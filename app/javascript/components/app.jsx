@@ -11,7 +11,7 @@ import Pets from './pages/pets'
 
 export default function App() {
 	return (
-		<div>
+		<div className="bg-black">
 			<Header />
 			<Routes>
 			 <Route  path='*' element={<Home />} />
