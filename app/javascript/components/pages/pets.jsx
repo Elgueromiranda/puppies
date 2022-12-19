@@ -8,12 +8,12 @@ import Thor from '../../images/puppies/thor.jpg'
 
 export default function Pets() {
 	return (
-		<div className="flex" style={{paddingTop: "50px",
+	<div className="grid place-items-center h-screen" style={{paddingTop: "40px",
 									paddingLeft: "30px",
-									paddingBottom: "170px",
+									paddingBottom: "190px",
 									backgroundColor: "#FFFFE0"}}>
 
-			<div  className="h-96 carousel carousel-vertical rounded-box" style={{paddingRight:"20px"}}>
+			<div  className="h-96 carousel carousel-vertical rounded-lg">
   <div className="carousel-item h-full">
     <img src={Bucky} />
   </div> 
@@ -23,9 +23,9 @@ export default function Pets() {
   <div className="carousel-item h-full">
     <img src={Pepper} />
   </div> 
-  
+  <br/><br>
 </div>
-			<div className="h-96 carousel carousel-vertical rounded-box">
+			<div className="h-96 carousel carousel-vertical rounded-lg mt-4">
   <div className="carousel-item h-full">
     <img src={Stark} />
   </div> 
@@ -36,5 +36,8 @@ export default function Pets() {
   
 </div>
 		</div>
+     <br/> 
+
+
 	)
 }
