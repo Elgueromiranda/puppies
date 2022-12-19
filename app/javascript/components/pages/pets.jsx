@@ -23,7 +23,6 @@ export default function Pets() {
   <div className="carousel-item h-full">
     <img src={Pepper} />
   </div> 
-  <br/><br>
 </div>
 			<div className="h-96 carousel carousel-vertical rounded-lg mt-4">
   <div className="carousel-item h-full">
@@ -36,7 +35,6 @@ export default function Pets() {
   
 </div>
 		</div>
-     <br/> 
 
 
 	)
