@@ -18,9 +18,9 @@ export default function Header() {
   return (
       
 <nav className="bg-black border-gray-200 px-2 sm:px-4 py-2.5 rounded z-10 sticky top-0 rounded-full w-full">
-  <div className="bg-black container flex flex-wrap items-center justify-between mx-auto">
-    <Link to="*" className="flex items-center">
-        <img src={Logo} alt=" Logo" />
+  <div className="bg-black container flex flex-wrap items-center justify-between mx-auto rounded-full">
+    <Link to="*" className="flex items-center ">
+        <img src={Logo} className="rounded-full" alt=" Logo" />
     </Link>
     <button onClick={toggleMenu} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded={menu}>
       <span className="sr-only">Open main menu</span>
