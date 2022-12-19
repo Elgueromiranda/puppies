@@ -3,11 +3,11 @@ import certificate from '../../images/certificate.jpeg'
 
 export default function About() {
 	return (
-		<div  style={{paddingTop:"50px",
+		<div  className="grid place-items-center h-screen"  style={{paddingTop:"40px",
 					paddingBottom: "300px",
 					backgroundColor: "#FFFFE0"}}>
-			<img src={certificate} className="mr-5"/> 
-			<div className="container">
+			<img src={certificate} /> 
+			<div className="container bg-indigo-400 text-white rounded-md">
 			Lake in the Hills has a responsible breeding program. Our lines are guarenteed to be healthy and all dogs come with a health guarantee. We are AKC registered and have succesfully delivered our puppies to many happy customers. Our dogs are family and We want to ensure their puppies end up in a good home.
 			<br/>
 			<br/>
