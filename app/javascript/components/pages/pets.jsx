@@ -13,7 +13,7 @@ export default function Pets() {
 									paddingBottom: "900px",
 									backgroundColor: "#FFFFE0"}}>
 
-			<div  className="h-96 carousel carousel-vertical rounded-lg">
+			<div  className="h-96 carousel rounded-full">
   <div className="carousel-item " style={{width: "650px",
                                           height: "400px"}}>
     <img src={Bucky} className="object-fill w-full h-full rounded-full " />
@@ -26,8 +26,6 @@ export default function Pets() {
                                           height: "400px"}}>
     <img src={Pepper} className="object-fill w-full h-full rounded-full"/>
   </div> 
-</div>
-			<div className="h-96 carousel carousel-vertical rounded-lg mt-7">
   <div className="carousel-item " style={{width: "650px",
                                           height: "400px"}}>
     <img src={Stark} className="object-fill w-full h-full rounded-full " />

@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="absolute bottom-0 right-0 mb-4 mr-8" style={{position:"fixed"}}>
     <div>
               <a title="Follow me on Instagram" href="https://www.instagram.com/lakeinthehillspomskies" target="_blank" className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
-            <img className="object-cover object-center w-full h-full rounded-full" src={Instagram}/>
+            <img className="object-cover object-center w-full h-full rounded-full border-4 border-slate-600" src={Instagram}/>
         </a>
         <br/>
               <a title="Follow me on Facebook" href="https://www.facebook.com/lakeinthehillspomskies" target="_blank" className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
-            <img className="object-cover object-center w-full h-full rounded-full" src={Facebook}/>
+            <img className="object-cover object-center w-full h-full rounded-full border-4 border-slate-600" src={Facebook}/>
         </a>
     </div>
 </div>
