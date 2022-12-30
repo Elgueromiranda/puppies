@@ -29,16 +29,16 @@ export default function Header() {
     <div className={menu ? " w-full md:block md:w-auto" : "hidden w-full md:block md:w-auto"} id="navbar-default">
       <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-sm md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 bg-slate-100 dark:border-gray-700">
         <li>
-          <Link style={{fontSize: "20px"}} onClick={toggleMenu} to="*" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</Link>
+          <Link style={{fontSize: "20px"}} onClick={toggleMenu} to="*" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</Link>
         </li>
         <li>
-          <Link style={{fontSize: "20px"}} onClick={toggleMenu} to="/about" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</Link>
+          <Link style={{fontSize: "20px"}} onClick={toggleMenu} to="/about" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</Link>
         </li>
         <li>
-          <Link style={{fontSize: "20px"}} onClick={toggleMenu} to="/pets" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Availble Pets</Link>
+          <Link style={{fontSize: "20px"}} onClick={toggleMenu} to="/pets" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Availble Pets</Link>
         </li>
         <li>
-          <Link style={{fontSize: "20px"}} onClick={toggleMenu} to="/application" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Application</Link>
+          <Link style={{fontSize: "20px"}} onClick={toggleMenu} to="/application" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Application</Link>
         </li>
    
       </ul>

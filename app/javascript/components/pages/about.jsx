@@ -11,7 +11,7 @@ export default function About() {
 
 
 <div className="grid grid-cols-2 container place-items-center place-content-center">
-  <div className="ml-5 mb-5 mr-1">
+  <div className="ml-5 mb-5 mr-1 ">
   <img src={certificate} className=" border-amber-900 mr-1" style={{borderStyle: "full",  borderWidth: "10px"}} />
   </div>
     <div className="mr-2 mb-5 ml-1">
@@ -20,7 +20,7 @@ export default function About() {
     </div>
 			
 </div>
-<div class="grid grid-col-3 ml-5 mr-5">
+<div className="grid grid-col-3 ml-5 mr-5">
 			<div>		<p className="font-serif Times New Roman bg-red-600 container text-white rounded p-3">
 
 				ALL PUPPIES WILL BE ACCOMPANIED BY A FLIGHT NANNY. WE WILL NOT CRATE SHIP!

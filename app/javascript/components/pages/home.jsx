@@ -6,6 +6,7 @@ import Flurry from '../../images/pets/flurry.jpg'
 import Lake from '../../images/pets/lake.jpg'
 
 import Puppies from '../../images/pets/puppies.jpg'
+import Computer from '../../images/pets/computer.jpg'
 
 
 
@@ -27,13 +28,13 @@ export default function Home() {
 
 	function setLabel(){
 		if(currentSlide == 0){
-			setpictureLabel("Cacahuate our stud")
+			setpictureLabel("Cacahuate Our Stud")
 
 		}else if(currentSlide == 1){
-			setpictureLabel("Flurry our dam")
+			setpictureLabel("Flurry Our Dam")
 
 		}else if(currentSlide == 2){
-			setpictureLabel("Our first litter")
+			setpictureLabel("Our First Litter")
 
 		}else{
 			setpictureLabel("Lake in the Hills, IL")
@@ -60,14 +61,18 @@ export default function Home() {
 	}
 
 	return (
-		<div className="bg-[#a5b4fc]"style={{paddingTop:"50px",
+		<div className="bg-[#a5b4fc]"style={{paddingTop:"40px",
 					paddingBottom: "500px"}}>
+					<div className="text-center" style={{marginBottom: "60px", marginTop: "60px"}}>
+					<h1 className="text-white bg-rose-200 p-4" style={{fontSize: "5vw", marginBottom: "50px"}}>Welcome!</h1>
+					<img className="rounded-full border-black" style={{borderStyle: "solid",  borderWidth: "20px"}} src={Computer}/>
+					</div>
 					    <h1 className="text-white bg-rose-200 p-3 rounded-full mr-4 ml-4" style={{fontSize:"5vw", textAlign: "center",marginBottom: "20px"}}>{pictureLabel}</h1>
 
 		<div id="carouselExampleControls" className="carousel slide relative mr-2 ml-2" data-bs-ride="carousel">
   <div className="carousel-inner relative w-full overflow-hidden">
     <div className="carousel-item active relative float-left w-full place-content-center">
-     <div style={{fontSize:"5vw", position: "absolute"}} className="absolute left-2 text-white/75 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60">Back</div>
+     <div style={{fontSize:"3vw", position: "flex"}} className="absolute left-2 text-white/75 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60">Back</div>
 
       {data.map((slide, index) => {
       	return(
@@ -75,14 +80,14 @@ export default function Home() {
       <img
         src={slide.image}
         key={index}
-        className={currentSlide == index ? "border-black block object-scale-down h-170 w-170 rounded-full" : "hidden"}
+        className={currentSlide == index ? "border-black block object-scale-down h-150 w-150 rounded-full" : "hidden"}
         style={{borderStyle: "double",  borderWidth: "40px"}}
       />
       )
       })}
     </div>   
   </div>
-      <div style={{fontSize:"5vw"}} className="right-0 mr-2 absolute text-white/75 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60">Next</div>
+      <div style={{fontSize:"3vw"}} className="right-0 mr-2 absolute text-white/75 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60">Next</div>
 
    <button onClick={prevSlide} type="button" className="absolute top-20 object-scale-down h-160 w-200 left-8 z-1 flex px-2 cursor-pointer group focus:outline-none mt-20" data-carousel-prev>
         <span className="inline-flex items-center justify-center w-10 h-10 rounded-full sm:w-20 sm:h-20 bg-black/30 dark:bg-gray-800/30 group-hover:bg-black/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-black dark:group-focus:ring-gray-800/70 group-focus:outline-none">
