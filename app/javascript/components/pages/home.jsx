@@ -67,7 +67,7 @@ export default function Home() {
 		<div id="carouselExampleControls" className="carousel slide relative mr-2 ml-2" data-bs-ride="carousel">
   <div className="carousel-inner relative w-full overflow-hidden">
     <div className="carousel-item active relative float-left w-full place-content-center">
-     <div style={{fontSize:"5vw", position: "absolute"}} className="container text-white/75 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60">Back</div>
+     <div style={{fontSize:"5vw", position: "absolute"}} className="absolute left-2 text-white/75 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60">Back</div>
 
       {data.map((slide, index) => {
       	return(

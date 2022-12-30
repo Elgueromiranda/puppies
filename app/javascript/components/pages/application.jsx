@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 
 export default function Application() {
-	const form = useRef()
+  const form = useRef()
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,9 +17,9 @@ export default function Application() {
           console.log(error.text);
       });
   };
-	return (
-		<div style={{paddingBottom: "400px"}} className="bg-zinc-500">
-			<section className="bg-zinc-500 dark:bg-gray-900" style={{paddingTop:"25px"}}>
+  return (
+    <div style={{paddingBottom: "400px"}} className="bg-zinc-500">
+      <section className="bg-zinc-500 dark:bg-gray-900" style={{paddingTop:"25px"}}>
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Application</h2>
       <form action="#" className="space-y-8" ref={form} onSubmit={sendEmail}>
@@ -43,6 +43,6 @@ export default function Application() {
       </form>
   </div>
 </section>
-		</div>
-	)
+    </div>
+  )
 }
