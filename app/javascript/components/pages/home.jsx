@@ -63,10 +63,7 @@ export default function Home() {
 	return (
 		<div className="bg-[#a5b4fc]"style={{paddingTop:"40px",
 					paddingBottom: "500px"}}>
-					<div className="text-center" style={{marginBottom: "60px", marginTop: "60px"}}>
-					<h1 className="text-white bg-rose-200 p-4" style={{fontSize: "5vw", marginBottom: "50px"}}>Welcome!</h1>
-					<img className="rounded-full border-black" style={{borderStyle: "solid",  borderWidth: "20px"}} src={Computer}/>
-					</div>
+	
 					    <h1 className="text-white bg-rose-200 p-3 rounded-full mr-4 ml-4" style={{fontSize:"5vw", textAlign: "center",marginBottom: "20px"}}>{pictureLabel}</h1>
 
 		<div id="carouselExampleControls" className="carousel slide relative mr-2 ml-2" data-bs-ride="carousel">
@@ -103,6 +100,10 @@ export default function Home() {
 		</span>
     </button>
 </div>
+				<div className="text-center" style={{marginBottom: "60px", marginTop: "60px"}}>
+					<h1 className="text-white bg-rose-200 p-4" style={{fontSize: "5vw", marginBottom: "50px"}}>Welcome!</h1>
+					<img className="rounded-full border-black" style={{borderStyle: "solid",  borderWidth: "15px"}} src={Computer}/>
+					</div>
 
 		</div>
 	)
