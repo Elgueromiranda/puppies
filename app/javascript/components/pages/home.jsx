@@ -100,10 +100,15 @@ export default function Home() {
 		</span>
     </button>
 </div>
-				<div className="text-center" style={{marginBottom: "60px", marginTop: "60px"}}>
-					<h1 className="text-white bg-rose-200 p-4" style={{fontSize: "5vw", marginBottom: "50px"}}>Welcome!</h1>
-					<img className="rounded-full border-black" style={{borderStyle: "solid",  borderWidth: "15px"}} src={Computer}/>
+					<h1 className="text-white bg-rose-200 p-4 text-center" style={{fontSize: "5vw", marginBottom: "50px"}}>Welcome!</h1>
+				<div className="text-center flex" style={{marginBottom: "60px", marginTop: "60px"}}>
+					<img className="rounded-full border-black " style={{borderStyle: "solid",  borderWidth: "15px"}} src={Computer}/>
 					</div>
+						<div>
+							<h1>Contact</h1>
+							<p>Have any more questions feel free to contact me</p>
+						</div>
+
 
 		</div>
 	)

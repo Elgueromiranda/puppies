@@ -9,6 +9,8 @@ import About from './pages/about'
 import Application from './pages/application'
 import Pets from './pages/pets'
 
+import Contact from './pages/contact'
+
 export default function App() {
 	return (
 		<div className="bg-black">
@@ -18,6 +20,7 @@ export default function App() {
               <Route path='/application' element={<Application />} />
               <Route path='/about' element={<About />} />
               <Route path='/pets' element={<Pets />} />
+              <Route path='/contact' element={<Contact />} />
 
 			</Routes>
 			<Footer />
