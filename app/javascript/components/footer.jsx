@@ -4,6 +4,7 @@ import Instagram from '../images/logos/instagram.png'
 
 export default function Footer() {
     return (
+        
         <div>
         <div className="absolute bottom-0 right-0 mb-4 sm:mb-2 mr-2 sm:mr-8" style={{position:"fixed"}}>
     <div>

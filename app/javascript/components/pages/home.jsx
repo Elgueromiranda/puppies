@@ -61,10 +61,10 @@ export default function Home() {
 	}
 
 	return (
-		<div className="bg-[#a5b4fc]"style={{paddingTop:"40px",
+		<div className="bg-[#a5b4fc]"style={{paddingTop:"60px",
 					paddingBottom: "500px"}}>
 	
-					    <h1 className="text-white bg-rose-200 p-3 rounded-full mr-4 ml-4" style={{fontSize:"5vw", textAlign: "center",marginBottom: "20px"}}>{pictureLabel}</h1>
+					    <h1 className="text-white bg-rose-200 p-3 rounded-full mr-4 ml-4" style={{fontSize:"5vw", textAlign: "center",marginBottom: "60px"}}>{pictureLabel}</h1>
 
 		<div id="carouselExampleControls" className="carousel slide relative mr-2 ml-2" data-bs-ride="carousel">
   <div className="carousel-inner relative w-full overflow-hidden">
@@ -77,8 +77,8 @@ export default function Home() {
       <img
         src={slide.image}
         key={index}
-        className={currentSlide == index ? "border-black block object-scale-down h-150 w-150 rounded-full" : "hidden"}
-        style={{borderStyle: "double",  borderWidth: "40px"}}
+        className={currentSlide == index ? "border-black/60 block object-scale-down h-150 w-150 rounded-full" : "hidden"}
+        style={{borderStyle: "solid",  borderWidth: "20px"}}
       />
       )
       })}
@@ -100,14 +100,14 @@ export default function Home() {
 		</span>
     </button>
 </div>
-					<h1 className="text-white bg-rose-200 p-4 text-center" style={{fontSize: "5vw", marginBottom: "50px"}}>Welcome!</h1>
-				<div className="text-center flex" style={{marginBottom: "60px", marginTop: "60px"}}>
-					<img className="rounded-full border-black " style={{borderStyle: "solid",  borderWidth: "15px"}} src={Computer}/>
+							<h1 className="text-white bg-black/90 p-4 text-center" style={{fontSize: "3vw", marginBottom: "50px",marginTop: "50px"}}> Anyone interested in purchasing a puppy will need to full out an application.</h1>
+
+				<div className="text-center bg-black/70 pr-5 pl-5" style={{marginBottom: "60px", marginTop: "60px",  display: "flex",
+  justifyContent: "center", paddingTop: "30px", paddingBottom: "30px"}}>
+					<img className="rounded-full" src={Computer}/>
 					</div>
-						<div>
-							<h1>Contact</h1>
-							<p>Have any more questions feel free to contact me</p>
-						</div>
+	
+		<h1 className="text-white bg-rose-200 p-4 text-center" style={{fontSize: "3vw", marginBottom: "50px",marginTop: "50px"}}>Welcome to Lake in the Hills Pomkies. Have questions? Contact me.</h1><br />
 
 
 		</div>
