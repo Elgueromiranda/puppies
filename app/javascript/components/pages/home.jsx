@@ -69,7 +69,7 @@ export default function Home() {
 	
 					    <h1 className="text-white bg-rose-200 p-3 rounded-full mr-4 ml-4 border-4" style={{fontSize:"5vw", textAlign: "center",marginBottom: "60px"}}>{pictureLabel}</h1>
 
-		<div id="carouselExampleControls" className="carousel slide relative mr-2 ml-2" data-bs-ride="carousel">
+		<div id="carouselExampleControls" className="carousel slide relative py-4 border-y-4 border-black bg-black/40" data-bs-ride="carousel">
   <div className="carousel-inner relative w-full overflow-hidden">
     <div className="carousel-item active relative float-left w-full place-content-center">
      <div style={{fontSize:"3vw", position: "flex"}} className="absolute left-2 text-white/75 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60">Back</div>
@@ -103,14 +103,14 @@ export default function Home() {
 		</span>
     </button>
 </div>
-							<h1 className="text-white bg-black/90 p-4 text-center" style={{fontSize: "3vw", marginBottom: "50px",marginTop: "50px"}}> Anyone interested in purchasing a puppy will need to full out an <Link className="underline" target="_blank" to="/application">application.</Link></h1>
+							<h1 className="border-y-2 text-white bg-black/80 p-4 text-center" style={{fontSize: "3vw", marginBottom: "50px",marginTop: "50px"}}> Anyone interested in purchasing a puppy will need to fill out an <Link className="underline" target="_blank" to="/application">application.</Link></h1>
 
-				<div className="text-center bg-black/70 pr-5 pl-5" style={{marginBottom: "60px", marginTop: "60px",  display: "flex",
+				<div className="text-center bg-black/70 pr-5 pl-5 border-y-4 border-black" style={{marginBottom: "60px", marginTop: "60px",  display: "flex",
   justifyContent: "center", paddingTop: "30px", paddingBottom: "30px"}}>
 					<img className="rounded-full border-8 border-black" src={Computer}/>
 					</div>
 	
-		<h1 className="text-white bg-rose-200 p-4 text-center" style={{fontSize: "3vw", marginBottom: "50px",marginTop: "50px"}}>Welcome to Lake in the Hills Pomkies. Have questions? <Link className="underline" target="_blank" to="/contact">Contact me.</Link></h1><br />
+		<h1 className="border-y-2 text-white bg-rose-200 p-4 text-center" style={{fontSize: "3vw", marginBottom: "50px",marginTop: "50px"}}>Welcome to Lake in the Hills Pomkies. Have questions? <Link className="underline" target="_blank" to="/contact">Contact me.</Link></h1><br />
 
 
 		</div>
