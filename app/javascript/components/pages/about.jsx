@@ -21,7 +21,7 @@ export default function About() {
 			
 </div>
 <div className="grid grid-col-3 ml-5 mr-5">
-			<div>		<p className="font-serif Times New Roman bg-red-600 container text-white rounded p-3">
+			<div>		<p className="border-2 border-black font-serif Times New Roman bg-red-600 container text-white rounded p-3">
 
 				ALL PUPPIES WILL BE ACCOMPANIED BY A FLIGHT NANNY. WE WILL NOT CRATE SHIP!
 				PICK UPS ARE ALSO AVAILABLE. WE WILL MEET YOU HALF WAY FOR DELIVERY IF YOUR
@@ -32,7 +32,7 @@ export default function About() {
 
 </div>
 		
-	<div className="container bg-indigo-400 text-white rounded-md mt-5 p-3">
+	<div className="border-2 border-black container bg-indigo-400 text-white rounded-md mt-5 p-3">
 			Lake in the Hills has a responsible breeding program. Our lines are guaranteed to be healthy and all dogs come with a health guarantee. We are AKC registered and have succesfully delivered our puppies to many happy customers. Our dogs are family and We want to ensure their puppies end up in a good home.
 			We are a small program that doesn't breed as often but we keep the dogs health in mind and ensure quality. 
 			<br/>
@@ -41,7 +41,7 @@ export default function About() {
 			</div>
 	
 		
-		<div className="container w-full text-black rounded mt-10 bg-slate-100 p-3" style={{ fontSize: "3vw", marginLeft: "3px"}}>
+		<div className="border-2 border-black container w-full text-black rounded mt-10 bg-slate-100 p-3" style={{ fontSize: "3vw", marginLeft: "3px"}}>
 						<p className="place-content-center">All of puppies purchased come with:</p><br/>
 					<ol className="list-none place-content-center text-center">
 						<li>Microchip</li>

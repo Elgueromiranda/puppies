@@ -14,8 +14,9 @@ export default function Pets() {
                   paddingLeft: "30px",
                   paddingBottom: "500px",
                   backgroundColor: "#FFFFE0"}}>
-     <h1 className="container text-white bg-rose-200 p-4" style={{fontSize: "5vw", marginBottom: "50px"}}>Our Current Litter</h1>
+     <h1 className="border-4 border-white container text-white bg-rose-200 p-4" style={{fontSize: "5vw", marginBottom: "50px"}}>Our Current Litter</h1>
 
+     <h1 className="border-2 border-white text-white bg-fuchsia-300 rounded-md visible sm:invisible text-center">&#8592; Swipe &#8594;</h1>
 
 <div style={{width: "full",
             marginTop: "50px"}}className=" p-5 container carousel carousel-center space-x-4 bg-black/80 rounded-lg">
@@ -26,7 +27,6 @@ export default function Pets() {
   <div className="card-body">
     <p className="text-black" style={{fontSize:"60px"}}>Bucky</p>
     <div className="card-actions justify-end">
-      <button className="btn rounded-sm text-white bg-green-500 font-serif Times New Roman">Buy Now</button>
     </div>
   </div>
 </div>
@@ -38,7 +38,6 @@ export default function Pets() {
   <div className="card-body">
     <p className="text-white" style={{fontSize:"60px"}}>Pepper</p>
     <div className="card-actions justify-end">
-      <button className="btn rounded-sm text-white bg-green-500 font-serif Times New Roman">Buy Now</button>
     </div>
   </div>
 </div>
@@ -51,7 +50,6 @@ export default function Pets() {
   <div className="card-body">
     <p className="text-black" style={{fontSize:"60px"}}>Stark</p>
     <div className="card-actions justify-end">
-      <button className="btn rounded-sm text-white bg-green-500 font-serif Times New Roman">Buy Now</button>
     </div>
   </div>
 </div>
@@ -71,7 +69,6 @@ export default function Pets() {
   <div className="card-body">
     <p className="text-black" style={{fontSize:"60px"}}>Loki</p>
     <div className="card-actions justify-end">
-      <button className="btn rounded-sm text-white bg-green-500 font-serif Times New Roman">Buy Now</button>
     </div>
   </div>
 </div>
@@ -83,7 +80,6 @@ export default function Pets() {
   <div className="card-body">
     <p className="text-white" style={{fontSize:"60px"}}>Maryjane</p>
     <div className="card-actions justify-end">
-      <button className="btn rounded-sm text-white bg-green-500 font-serif Times New Roman">Buy Now</button>
     </div>
   </div>
 </div>
@@ -96,7 +92,6 @@ export default function Pets() {
   <div className="card-body">
     <p className="text-black" style={{fontSize:"60px"}}>Thor</p>
     <div className="card-actions justify-end">
-      <button className="btn rounded-sm text-white bg-green-500 font-serif Times New Roman">Buy Now</button>
     </div>
   </div>
 </div>
