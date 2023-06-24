@@ -8,7 +8,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_94b3qyb', 'template_ydwws58', form.current, 'WkUVFTEG6i4JERgKe')
+    emailjs.sendForm('service_1eych5t', 'template_qmkz6xp', form.current, 'ESgxdTzcUGzLl_wKs')
       .then((result) => {
            alert("We will be in touch! We will reply promptly.")
             location.reload()  
@@ -19,9 +19,14 @@ export default function Contact() {
   };
   return (
     <div style={{paddingBottom: "400px"}} className="bg-black">
-      <section className="bg-zinc-600" style={{paddingTop:"25px"}}>
+      <section className="bg-gray-200" style={{paddingTop:"25px"}}>
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h1 style={{ fontSize: "6vw", marginBottom: "80px" }} className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact</h1>
+       <div class="relative flex py-5 items-center mb-5">
+  <div class="flex-grow h-px bg-gray-400 mr-2"></div>
+        <h1 style={{ fontSize: "6vw" }} className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white mr-2">Contact</h1>
+     <div class="flex-grow h-px bg-gray-400"></div>
+    </div>
+
       <form action="#" className="space-y-8" ref={form} onSubmit={sendEmail}>
           <div>
               <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 font-serif Times New Roman">Name</label>
@@ -45,4 +50,7 @@ export default function Contact() {
 </section>
     </div>
   )
+
+
+  
 }

@@ -45,6 +45,10 @@ export default function Header() {
          <li>
           <Link style={{fontSize: "15px"}} onClick={toggleMenu} to="/contact" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</Link>
         </li>
+           <li>
+          <Link style={{fontSize: "15px"}} onClick={toggleMenu} to="/test" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Test</Link>
+        </li>
+   
    
       </ul>
     </div>

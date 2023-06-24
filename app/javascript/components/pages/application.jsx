@@ -62,10 +62,21 @@ export default function Application() {
               How much time will the dog spend alone thoughout the day? </label>
               <textarea name="questionFour" id="questionFour" rows="6" className="focus:bg-white font-serif Times New Roman block p-2.5 w-full text-sm text-gray-900 bg-[#cbd5e1] rounded-lg shadow-sm border border-gray-300 focus:ring-white focus:border-primary-500 dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:border-primary-500" placeholder=" "></textarea>
           </div>
+
+            <div className="sm:col-span-2">
+              <label htmlFor="questionSix" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 font-serif Times New Roman">
+              Will you be breeding?</label>
+              <textarea name="questionSix" id="questionSix" rows="6" className="focus:bg-white font-serif Times New Roman block p-2.5 w-full text-sm text-gray-900 bg-[#cbd5e1] rounded-lg shadow-sm border border-gray-300 focus:ring-white focus:border-primary-500 dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:border-primary-500" placeholder=" "></textarea>
+          </div>
            <div className="sm:col-span-2">
               <label htmlFor="questionFive" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 font-serif Times New Roman">
               What is your occupation? </label>
               <textarea name="questionFive" id="questionFive" rows="6" className="focus:bg-white font-serif Times New Roman block p-2.5 w-full text-sm text-gray-900 bg-[#cbd5e1] rounded-lg shadow-sm border border-gray-300 focus:ring-white focus:border-primary-500 dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:border-primary-500" placeholder=" "></textarea>
+          </div>
+           <div className="sm:col-span-2">
+              <label htmlFor="questionSeven" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 font-serif Times New Roman">
+              Are you okay with signing a strict neuter/spay contract?</label>
+              <textarea name="questionSeven" id="questionSeven" rows="6" className="focus:bg-white font-serif Times New Roman block p-2.5 w-full text-sm text-gray-900 bg-[#cbd5e1] rounded-lg shadow-sm border border-gray-300 focus:ring-white focus:border-primary-500 dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:border-primary-500" placeholder=" "></textarea>
           </div>
            <div className="sm:col-span-2">
               <label htmlFor="address" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 font-serif Times New Roman">Address</label>
