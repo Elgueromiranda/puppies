@@ -44,7 +44,6 @@ export default function About() {
 		<div className="border-2 border-black container w-full text-black rounded mt-10 bg-slate-100 p-3" style={{ fontSize: "3vw", marginLeft: "3px"}}>
 						<p className="place-content-center">All of puppies purchased come with:</p><br/>
 					<ol className="list-none place-content-center text-center">
-						<li>Microchip</li>
 						<li>Embark DNA test</li>
 						<li>Deworming</li>
 						<li>Vetenary report/Birth certificate</li>
