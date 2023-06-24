@@ -27,7 +27,7 @@ export default function Pets() {
                   paddingLeft: "30px",
                   paddingBottom: "500px",
                   backgroundColor: "#FFFFE0"}}>
-     <h1 className="border-4 border-white container text-white bg-rose-200 p-4" style={{fontSize: "5vw", marginBottom: "50px"}}>Our Current Litter</h1>
+     <h1 className="border-4 border-white container text-white bg-rose-200 p-4" style={{fontSize: "5vw", marginBottom: "50px"}}>Available Puppies</h1>
 
      <h1 className="border-2 border-white text-white bg-fuchsia-300 rounded-md visible sm:invisible text-center">&#8592; Swipe &#8594;</h1>
 
@@ -115,6 +115,7 @@ export default function Pets() {
 </figure>
   <div className="card-body">
     <p className="text-white" style={{fontSize:"60px"}}>Azula</p>
+    <p className="text-white" style={{fontSize:"60px"}}>(HOLD)</p>
     <div className="card-actions justify-end">
     </div>
   </div>

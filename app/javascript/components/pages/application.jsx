@@ -8,7 +8,7 @@ export default function Application() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_94b3qyb', 'template_ypmjq62', form.current, 'WkUVFTEG6i4JERgKe')
+    emailjs.sendForm('service_1eych5t', 'template_qmkz6xp', form.current, 'ESgxdTzcUGzLl_wKs')
       .then((result) => {
            alert("Your application has been submitted!")
             location.reload()  
@@ -19,9 +19,15 @@ export default function Application() {
   };
   return (
     <div style={{paddingBottom: "400px"}} className="bg-black">
-      <section className="bg-zinc-600" style={{paddingTop:"25px"}}>
+      <section className="bg-gray-200" style={{paddingTop:"25px"}}>
+
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 style={{fontSize: "6vw", marginBottom: "80px" }} className="text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Application</h2>
+      <div class="relative flex py-5 items-center">
+    <div class="flex-grow border-t border-gray-400"></div>
+
+    <div class="flex-grow border-t border-gray-400"></div>
+</div>
       <form action="#" className="space-y-8" ref={form} onSubmit={sendEmail}>
           <div>
               <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 font-serif Times New Roman">Name</label>

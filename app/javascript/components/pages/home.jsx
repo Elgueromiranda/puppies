@@ -67,8 +67,8 @@ export default function Home() {
 		<div className="bg-[#a5b4fc]"style={{paddingTop:"60px",
 					paddingBottom: "500px"}}>
 	
-					    <h1 className="text-white bg-rose-200 p-3 rounded-full mr-4 ml-4 border-4" style={{fontSize:"5vw", textAlign: "center",marginBottom: "60px"}}>{pictureLabel}</h1>
-
+					    <h1 className="text-white bg-rose-200 p-3 mr-4 ml-4 border-4" style={{fontSize:"5vw", textAlign: "center",marginBottom: "60px"}}>{pictureLabel}</h1>
+					   
 		<div id="carouselExampleControls" className="carousel slide relative py-4 border-y-4 border-black bg-black/40" data-bs-ride="carousel">
   <div className="carousel-inner relative w-full overflow-hidden">
     <div className="carousel-item active relative float-left w-full place-content-center">
