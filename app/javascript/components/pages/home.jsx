@@ -31,7 +31,7 @@ export default function Home() {
 
 	function setLabel(){
 		if(currentSlide == 0){
-			setpictureLabel("Cacahuate Our Stud")
+			setpictureLabel("Peanut Our Stud")
 
 		}else if(currentSlide == 1){
 			setpictureLabel("Flurry Our Dam")

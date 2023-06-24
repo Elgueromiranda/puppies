@@ -35,7 +35,9 @@ export default function Header() {
           <Link style={{fontSize: "15px"}} onClick={toggleMenu} to="/about" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</Link>
         </li>
         <li>
-          <Link style={{fontSize: "15px"}} onClick={toggleMenu} to="/pets" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Availble Pets</Link>
+          <Link style={{fontSize: "15px"}} onClick={toggleMenu} to="/pets" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pets</Link>
+        </li><li>
+          <Link style={{fontSize: "15px"}} onClick={toggleMenu} to="/past" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Past Litter</Link>
         </li>
         <li>
           <Link style={{fontSize: "15px"}} onClick={toggleMenu} to="/application" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-[#cbd5e1] md:p-0 dark:text-gray-400 md:dark:hover:text-[#cbd5e1] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Application</Link>
