@@ -9,7 +9,6 @@ import About from './pages/about'
 import Application from './pages/application'
 import Pets from './pages/pets'
 import Past from './pages/past'
-//import Test from './pages/test'
 
 import Contact from './pages/contact'
 
@@ -24,7 +23,6 @@ export default function App() {
               <Route path='/pets' element={<Pets />} />
               <Route path='/past' element={<Past />} />
               <Route path='/contact' element={<Contact />} />
-              {/*<Route path='/test' element={<Test />} />*/}
 
 			</Routes>
 			<Footer />

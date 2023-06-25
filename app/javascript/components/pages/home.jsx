@@ -64,8 +64,10 @@ export default function Home() {
 	}
 
 	return (
+			<div>
+			
 		<div className="bg-[#a5b4fc]"style={{paddingTop:"60px",
-					paddingBottom: "500px"}}>
+					paddingBottom: "150px"}}>
 	
 					    <h1 className="text-white bg-rose-200 p-3 mr-4 ml-4 border-4" style={{fontSize:"5vw", textAlign: "center",marginBottom: "60px"}}>{pictureLabel}</h1>
 					   
@@ -103,7 +105,7 @@ export default function Home() {
 		</span>
     </button>
 </div>
-							<h1 className="border-y-2 text-white bg-black/80 p-4 text-center" style={{fontSize: "3vw", marginBottom: "50px",marginTop: "50px"}}> Anyone interested in purchasing a puppy will need to fill out an <Link className="underline" target="_blank" to="/application">application.</Link></h1>
+							<h1 className="border-y-2 text-white p-4 text-center bg-red-600" style={{fontSize: "3vw", marginBottom: "50px",marginTop: "50px"}}> Anyone interested in purchasing a puppy will need to fill out an <Link className="underline" target="_blank" to="/application">application.</Link></h1>
 
 				<div className="text-center bg-black/70 pr-5 pl-5 border-y-4 border-black" style={{marginBottom: "60px", marginTop: "60px",  display: "flex",
   justifyContent: "center", paddingTop: "30px", paddingBottom: "30px"}}>
@@ -111,8 +113,15 @@ export default function Home() {
 					</div>
 	
 		<h1 className="border-y-2 text-white bg-rose-200 p-4 text-center" style={{fontSize: "3vw", marginBottom: "50px",marginTop: "50px"}}>Welcome to Lake in the Hills Pomkies. Have questions? <Link className="underline" target="_blank" to="/contact">Contact me.</Link></h1><br />
+ 
 
+</div>
+ <div style={{paddingBottom: "200px"}} className="bg-black">
+
+		    </div>
 
 		</div>
+
+
 	)
 }

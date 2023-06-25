@@ -5,8 +5,9 @@ import gooddog from '../../images/logos/gooddog.jpg'
 
 export default function About() {
 	return (
+		<div style={{paddingBottom: "200px"}} className="bg-black">
 		<div className="place-content-center" style={{paddingTop:"40px",
-					paddingBottom: "500px",
+					paddingBottom: "260px",
 					backgroundColor: "#FFFFE0"}}>
 
 
@@ -57,6 +58,8 @@ export default function About() {
 	
 
 </div>
+    </div>
+
 
 	
 	)

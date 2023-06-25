@@ -9,10 +9,11 @@ import Loki from '../../images/puppies/loki.jpg'
 
 export default function Pets() {
   return (
+    <div>
   <div className="place-content-center" style={{paddingTop: "50px",
                   paddingRight: "20px",
                   paddingLeft: "30px",
-                  paddingBottom: "500px",
+                  paddingBottom: "250px",
                   backgroundColor: "#FFFFE0"}}>
      <h1 className="border-4 border-white container text-white bg-rose-200 p-4" style={{fontSize: "5vw", marginBottom: "50px"}}>Past Litter</h1>
 
@@ -100,9 +101,11 @@ export default function Pets() {
 </div>
 
 
+    </div>
 
+      <div style={{paddingBottom: "200px"}} className="bg-black">
 
-
+    </div>
     </div>
 
   )
