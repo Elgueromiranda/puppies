@@ -21,10 +21,10 @@ export default function Contact() {
     <div style={{paddingBottom: "200px"}} className="bg-black">
       <section className="bg-gray-200" style={{paddingTop:"25px" , paddingBottom:"150px"}}>
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-       <div class="relative flex py-5 items-center mb-5">
-  <div class="flex-grow h-px bg-gray-400 mr-2"></div>
+       <div className="relative flex py-5 items-center mb-5">
+  <div className="flex-grow h-px bg-gray-400 mr-2"></div>
         <h1 style={{ fontSize: "6vw" }} className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 mr-2">Contact</h1>
-     <div class="flex-grow h-px bg-gray-400"></div>
+     <div className="flex-grow h-px bg-gray-400"></div>
     </div>
 
       <form action="#" className="space-y-8" ref={form} onSubmit={sendEmail}>

@@ -24,11 +24,4 @@
  z-index: 100;
 }
 
-.carousel-item {
- z-index: 1;
- position: relative;
-}
 
-.puppy {
-    z-index: 1;
-}

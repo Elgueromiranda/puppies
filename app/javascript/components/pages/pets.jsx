@@ -36,14 +36,17 @@ export default function Pets() {
             className="dialog"
             open
             onClick={popup}
+            style={{ width: "95%" }}
 
           >
-           <img className="dialog-image" style={{height: "900px", width: "900px" }} onClick={popup} src={url === "Puppy1" ? Puppy1 : url === "Puppy2" ? Puppy2 : url === "Puppy3" ? Puppy3 : url === "Puppy4" ? Puppy4 : url === "Puppy5" ? Puppy5 : url === "Puppy6" ? Puppy6 : url === "Puppy7" ? Puppy7 : url === "Puppy8" ? Puppy8 :  Puppy9  } />
+          
+           <img id="pic" className="dialog-image" style={{ width: "full" }} onClick={popup} src={url === "Puppy1" ? Puppy1 : url === "Puppy2" ? Puppy2 : url === "Puppy3" ? Puppy3 : url === "Puppy4" ? Puppy4 : url === "Puppy5" ? Puppy5 : url === "Puppy6" ? Puppy6 : url === "Puppy7" ? Puppy7 : url === "Puppy8" ? Puppy8 :  Puppy9  } />
+          
           </dialog>
         )}
      <h1 className="border-2 border-white text-white bg-fuchsia-300 rounded-md visible sm:invisible text-center">&#8592; Swipe &#8594;</h1>
 
-<div style={{width: "90%",
+<div style={{width: "full",
             marginTop: "50px"}}className=" p-5 container carousel carousel-center space-x-4 bg-black/80 rounded-lg">
   <div className="carousel-item">
 <div className="card w-96 bg-[#60a5fa] shadow-xl">
@@ -116,7 +119,7 @@ export default function Pets() {
 */}
 
 
-<div style={{width: "90%",
+<div style={{width: "full",
             marginTop: "200px"
             }}className="p-5 container carousel carousel-center space-x-4 bg-black/80 rounded-lg">
   <div className="carousel-item">

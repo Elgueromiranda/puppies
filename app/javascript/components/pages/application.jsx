@@ -23,10 +23,10 @@ export default function Application() {
 
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 style={{fontSize: "6vw", marginBottom: "80px" }} className="text-4xl tracking-tight font-extrabold text-center text-gray-900 ">Application</h2>
-      <div class="relative flex py-5 items-center">
-    <div class="flex-grow border-t border-gray-400"></div>
+      <div className="relative flex py-5 items-center">
+    <div className="flex-grow border-t border-gray-400"></div>
 
-    <div class="flex-grow border-t border-gray-400"></div>
+    <div className="flex-grow border-t border-gray-400"></div>
 </div>
       <form action="#" className="space-y-8" ref={form} onSubmit={sendEmail}>
           <div>
